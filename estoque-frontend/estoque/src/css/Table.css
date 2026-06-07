@@ -1,0 +1,107 @@
+* Container to allow horizontal scrolling on small screens */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 20px 0;
+  font-size: 10px;
+}
+
+/* Base table styling */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+/* Header styling */
+.custom-table th {
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 14px 16px;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+  font-size: 12px;
+}
+
+/* Body rows styling */
+.custom-table td {
+  padding: 14px 16px;
+  color: #333333;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+/* Row hover effect */
+.custom-table tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+/* Center align actions header and cell contents */
+.action-header {
+  text-align: center;
+}
+
+.action-cell {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Action button base layout */
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Edit button variant */
+.btn-edit {
+  background-color: #e7f5ff;
+  color: #228be6;
+}
+
+.btn-edit:hover {
+  background-color: #d0ebff;
+}
+
+/* Delete button variant */
+.btn-delete {
+  background-color: #fff5f5;
+  color: #fa5252;
+}
+
+.btn-delete:hover {
+  background-color: #ffe3e3;
+}
+
+/* Optional badges for roles */
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.badge.admin { background-color: #e6fcf5; color: #0ca678; }
+.badge.editor { background-color: #fff9db; color: #f08c00; }
+.badge.viewer { background-color: #f1f3f5; color: #868e96; }
+
+.div-cadastro {
+  text-align: right;
+}
+
+.div-cadastro-button {
+  display: flex;
+  text-align: center;
+  gap: 8px; 
+  width:120px;
+}
